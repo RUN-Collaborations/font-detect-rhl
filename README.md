@@ -18,6 +18,7 @@ See also: [How To Tell If A Font Is Copyrighted & Why You Should Always Check](h
 <br />3.1 [Graphite-enabled Smart Font Features](#3-1-graphite-enabled-smart-font-features)
 <br />3.2 [Both Graphite-Enabled and OpenType Font Features](#3-2-both-graphite-enabled-and-opentype-font-features)
 <br />3.3 [OpenType Font Features](#3-3-opentype-font-features)
+<br />3.4 [All-in-one Graphite-Enabled and OpenType Setting](#3-4-all-in-one-graphite-enabled-and-opentype-setting)
 4. [Handling Right-to-Left (RTL) and Left-to-Right (LTR) Text](#4-handling-rtl-and-ltr-text)
 5. [Getting Started](#5-getting-started)
 <br />3.1 [Web Fonts](#5-1-web-fonts)
@@ -102,6 +103,35 @@ The following font currently utilize *some different* font feature settings when
 
  (*) The [Tagumukay font desription](https://software.sil.org/tagmukay/) indicates both "Graphite and OpenType tables..." The 'RenderingUnknown' test leads to 'RenderingUnknown' with version 2.000. The font features settings are presently only included in [openTypeEnabledFeatures](https://font-detect-rhl.netlify.app/#/Example?id=opentypeenabledfeatures). However, it is rendering in Graphite in Firefox, the OpenType font features settings will still work.
 
+<span id="3-4-all-in-one-graphite-enabled-and-opentype-setting">&nbsp;</span>
+### All-in-one Graphite-Enabled and OpenType Setting <sub><sup>[ [fontFeatureSettings](https://font-detect-rhl.netlify.app/#/Example?id=fontfeaturesettings) ] ... [↩](#toc)</sup></sub>
+
+Indicators are included to adjust for the following difference in providing graphite-enabled settings and open type enabled settings combined in one json resource:
+
+- **Awami Nastaliq**:
+    - *settings that require Graphite (not available in Open Type)*:
+        - everything
+- **Annapurna SIL**:
+    - *settings that require Graphite*:
+        - Jha alternates (cv01)
+        - Digit nine alternates" (cv10)
+    - *settings that require Open Type*:
+        - Jha alternates - ss01 (ss01)
+        - Jha alternates - ss02 (ss02)
+        - Digit nine alternates - ss10 (ss10)
+        - Digit nine alternates - ss11 (ss11)
+    - *settings that require Open Type (not available in Graphite)*:
+        - Fractions (frac)
+- **Padauk**:
+    - *settings that require Graphite (not available in Open Type)*:
+        - Lower dot shifts left (lldt)
+        - Long U with Yayit, long UU with Hato (ulon)
+        - U and UU always full height (utal)
+        - Insert dotted circles for errors (any combining mark) (dotc)
+        - Disable great nnya (nnya)
+        - Variant tta (vtta)
+        - Move ldot right when possible (dotr)
+
 <span id="4-handling-rtl-and-ltr-text">&nbsp;</span>
 ## Handling Right-to-Left (RTL) and Left-to-Right (LTR) Text <sub><sup>[&nbsp;[useDetectDir](https://font-detect-rhl.netlify.app/#/Example?id=usedetectdir)&nbsp;] ... [↩](#toc)</sup></sub>
 The useDetectDir hook enables simple autodetection of RTL/LTR text through examining the range of unicode values of characters of the text. Code utilized in this hook originated from [Christopher Klapp](https://github.com/klappy)'s [detectRTL.js](https://github.com/unfoldingWord-box3/simple-text-editor-rcl/blob/9e34aa5618cf1b06409b2c169ba5bd86229e6d45/src/helpers/detectRTL.js).
@@ -185,7 +215,7 @@ A custom neutral character scope can also be utilized to specify text that is no
 
 <span id="5-getting-started">&nbsp;</span>
 ## Getting Started <sub><sup>... [↩](#toc)</sup></sub>
-1. Explore the [Style Guide Example](#/Example) and documentation of [useDetectFonts](#/Example?id=usedetectfonts), [fontList](#/Example?id=fontlist), [useAssumeGraphite](#/Example?id=useassumegraphite), [graphiteEnabledFontList](#/Example?id=graphiteenabledfontlist), and [useDetectDir](#/Example?id=usedetectdir).
+1. Explore the [Style Guide Example](#/Example) and documentation of [useDetectFonts](#/Example?id=usedetectfonts), [fontList](#/Example?id=fontlist), [useAssumeGraphite](#/Example?id=useassumegraphite), [useDetectRender](#/Example?id=usedetectrender), [graphiteEnabledFontList](#/Example?id=graphiteenabledfontlist), [graphiteEnabledFeatures](#/Example?id=graphiteenabledfeatures), [openTypeEnabledFeatures](#/Example?id=opentypeenabledfeatures), [fontFeatureSettings](#/Example?id=fontfeaturesettings), and [useDetectDir](#/Example?id=usedetectdir).
 
 1. Then take advantage of these CodeSandbox examples applying font-detect-rhl:
   * Material UI Examples: [Font Dropdown](https://codesandbox.io/p/devbox/mui-font-detect-rhl-xui47y?file=/src/components/SelectMUI.jsx) | [with type your font](https://codesandbox.io/p/devbox/mui-font-detect-rhl-type-your-font-8xqw6p)<br />
