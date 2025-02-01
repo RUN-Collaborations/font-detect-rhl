@@ -2434,16 +2434,16 @@
                     "title": "Fractions",
                     "name": "frac",
                     "id": "fractions-label",
-                    "default": 1,
+                    "default": "1",
                     "label": "१⁄२ १⁄४ ३⁄४",
                     "options": [
                       {
                         "tip": "Fractions",
-                        "value": 1
+                        "value": "1"
                       },
                       {
                         "tip": "No ligature (use ZWNJ)",
-                        "value": 0
+                        "value": "0"
                       }
                     ]
                   }
