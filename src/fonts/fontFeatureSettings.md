@@ -158,7 +158,7 @@ function Component(){
     setSelectedLineHeight(event.target.value);
   };
 
-  // OpenType-enabled web fonts use a different css id from the actual font name to avoid conflict with locally installed fonts (which could be a different version). We will also remove a few fonts from dropdown selection in Firefox where Graphite is assumed.
+  // Web fonts are using a different css id from the actual font name to avoid conflict with locally installed fonts, which could be a different version. We will also remove one font from dropdown selection in Firefox where Graphite is assumed.
   const webFonts =
     webFontsArray.filter((name) => (isGraphiteAssumed ? name.name !== '' : name.name !== 'Awami Nastaliq 3-300')).map((font, index) => (
       <option key={index} value={font.name} style={{ fontFamily: font.name }}>{font.name}</option>
