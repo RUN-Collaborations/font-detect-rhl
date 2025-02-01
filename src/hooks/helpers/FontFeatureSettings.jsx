@@ -13,6 +13,7 @@ export default function FontFeatureSettings(fontFeatureSettingsProps) {
     radioLabelLeftMargin,
     diffStyle,
     featureArray,
+    isGraphiteAssumed,
   } = fontFeatureSettingsProps;
 
 
@@ -44,12 +45,12 @@ export default function FontFeatureSettings(fontFeatureSettingsProps) {
     <div key={fontIndex}>
       {font.categories.map((categories, categoriesIndex) => {
         return (<div key={categoriesIndex}>
-          {font.categories[categoriesIndex].category.map((category, categoryIndex) => {
+          {font.categories[categoriesIndex].category.filter(item => isGraphiteAssumed ? item.opentype_render_required !== true : item.graphite_render_required !== true).map((category, categoryIndex) => {
             return (<div key={categoryIndex}>
               <h1 style={{textAlign: 'center'}}>{font.name}: {category.name}</h1>
               {category.sets.map((sets, setsIndex) => {
                 return (<div key={setsIndex}>
-                  {category.sets[setsIndex].set.map((set, setIndex) => {
+                  {category.sets[setsIndex].set.filter(item => isGraphiteAssumed ? item.opentype_render_required !== true : item.graphite_render_required !== true).map((set, setIndex) => {
                     return (<div key={setIndex} id={++count}>
                       <label id={set.id}><div style={fieldsetLabelStyle}><mark style={fieldsetLabelMarkStyle}>{set.title}</mark></div></label>
                       <fieldset id={set.name}
@@ -95,7 +96,7 @@ export default function FontFeatureSettings(fontFeatureSettingsProps) {
         </div>)
       })}
     </div>
-  )), [featureArray, featureFont, count, fieldsetLabelStyle, fieldsetLabelMarkStyle, fieldsetStyle, quoteOrNot, selectedFont, handleChangeFeature, fontSettings, setLabelDivStyle, diffStyle]);
+  )), [featureArray, featureFont, count, fieldsetLabelStyle, fieldsetLabelMarkStyle, fieldsetStyle, quoteOrNot, selectedFont, handleChangeFeature, fontSettings, setLabelDivStyle, diffStyle, isGraphiteAssumed]);
 
   return featureSettings;
 }

@@ -7,6 +7,7 @@ import fontList from './fonts/fontList.json';
 import graphiteEnabledFontList from './fonts/graphiteEnabledFontList.json'
 import graphiteEnabledFeatures from './fonts/graphiteEnabledFeatures.json';
 import openTypeEnabledFeatures from './fonts/openTypeEnabledFeatures.json';
+import fontFeatureSettings from './fonts/fontFeatureSettings.json';
 
 export {
   useDetectFonts,
@@ -17,4 +18,5 @@ export {
   graphiteEnabledFontList,
   graphiteEnabledFeatures,
   openTypeEnabledFeatures,
+  fontFeatureSettings,
 };

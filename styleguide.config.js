@@ -22,6 +22,7 @@ const sections = [
       'src/fonts/graphiteEnabledFontList.jsx',
       'src/fonts/graphiteEnabledFeatures.jsx',
       'src/fonts/openTypeEnabledFeatures.jsx',
+      'src/fonts/fontFeatureSettings.jsx',
       'src/hooks/useDetectDir/useDetectDir.jsx',
     ],
   },

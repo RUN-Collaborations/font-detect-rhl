@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Abyssinica SIL 2-201",
+    "id": "Abyssinica-SIL-2-201",
+    "version": "2.201"
+  },
+  {
+    "name": "Alkalami 3-000",
+      "id": "Alkalami-3-000",
+      "version": "3.000"
+  },
+  {
+    "name": "Andika 6-200",
+      "id": "Andika-6-200",
+      "version": "6.200"
+  },
+  {
+    "name": "Annapurna SIL 2-100",
+      "id": "Annapurna-SIL-2-100",
+      "version": "2.100"
+  },
+  {
+    "name": "Awami Nastaliq 3-300",
+    "id": "Awami-Nastaliq-3-300",
+    "version": "3.300"
+  },  
+  {
+    "name": "Charis SIL 6-200",
+      "id": "Charis-SIL-6-200",
+      "version": "6.200"
+  },
+  {
+    "name": "Doulos SIL 6-200",
+      "id": "Doulos-SIL-6-200",
+      "version": "6.200"
+  },
+  {
+    "name": "Gentium Plus 6-200",
+      "id": "Gentium-Plus-6-200",
+      "version": "6.200"
+  },
+  {
+    "name": "Harmattan 4-300",
+      "id": "Harmattan-4-300",
+      "version": "4.300"
+  },
+  {
+    "name": "Kanchenjunga 2-001",
+      "id": "Kanchenjunga-2-001",
+      "version": "2.001"
+  },
+  {
+    "name": "Lateef 4-300",
+      "id": "Lateef-4-300",
+      "version": "4.300"
+  },
+  {
+    "name": "Padauk 5-100",
+      "id": "Padauk-5-100",
+      "version": "5.100"
+  },
+  {
+    "name": "Ruwudu 3-000",
+      "id": "Ruwudu-3-000",
+      "version": "3.000"
+  },
+  {
+    "name": "Scheherazade New 4-300",
+      "id": "Scheherazade-New-4-300",
+      "version": "4.300"
+  },
+  {
+    "name": "Tagmukay 2-000",
+    "id": "Tagmukay-2-000",
+    "version": "2.000"
+  }
+]
