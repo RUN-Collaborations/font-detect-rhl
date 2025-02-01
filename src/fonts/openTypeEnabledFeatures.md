@@ -65,7 +65,7 @@ function Component(){
 
   /* Annapurna SIL 2.100 uses *some different* font features settings for rendering with OpenType vs. rendering with Graphite. Settings from openTypeEnabledFeatures should *not* be offered in Firefox for Annapurna SIL 2.100.
    * Abyssinica SIL 2.201 and Padauk 5.100 render in both OpenType and Graphite using the *same* font features settings. We will exclude OpenType settings in Firefox from these two fonts, consistent with the 'RenderingUnknown' test result of 'RenderingGraphite'. */
-  const featureArray = isGraphiteAssumed ? openTypeEnabledFeatures.filter((name) => (name.name != 'Annapurna SIL' && name.name != 'Abyssinica SIL' && name.name != 'Padauk')) : openTypeEnabledFeatures;
+  const featureArray = isGraphiteAssumed ? openTypeEnabledFeatures.filter((name) => (name.name !== 'Annapurna SIL' && name.name !== 'Abyssinica SIL' && name.name !== 'Padauk')) : openTypeEnabledFeatures;
 
   // Create an array of font setting names and default values
   const fontSettingsJsx = useMemo(() => featureArray.filter((name) => name.name === featureFont).map((font, fontIndex) => (
@@ -120,7 +120,7 @@ function Component(){
 
   // OpenType-enabled web fonts use a different css id from the actual font name to avoid conflict with locally installed fonts (which could be a different version). We will also remove a few fonts from dropdown selection in Firefox where Graphite is assumed.
   const openTypeEnabledWebFonts =
-    openTypeEnabledWebFontsArray.filter((name) => (isGraphiteAssumed ? (name.name != 'Annapurna SIL 2-100' && name.name != 'Abyssinica SIL 2-201' && name.name != 'Padauk 5-100') : name.name != '')).map((font, index) => (
+    openTypeEnabledWebFontsArray.filter((name) => (isGraphiteAssumed ? (name.name !== 'Annapurna SIL 2-100' && name.name !== 'Abyssinica SIL 2-201' && name.name !== 'Padauk 5-100') : name.name !== '')).map((font, index) => (
       <option key={index} value={font.name} style={{ fontFamily: font.name }}>{font.name}</option>
     ));
   
