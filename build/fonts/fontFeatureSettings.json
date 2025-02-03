@@ -2,6 +2,7 @@
   {
     "name": "Abyssinica SIL",
     "id": "abyssinica-sil",
+    "opentype_differs_from_graphite": false,
     "categories": [
       {
         "category": [
@@ -654,6 +655,7 @@
   {
     "name": "Alkalami",
     "id": "alkalami",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -825,6 +827,7 @@
   {
     "name": "Andika",
     "id": "andika",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -2006,6 +2009,7 @@
   {
     "name": "Annapurna SIL",
     "id": "annapurna-sil",
+    "opentype_differs_from_graphite": true,
     "categories": [
       {
         "category": [
@@ -2015,9 +2019,36 @@
               {
                 "set": [
                   {
+                    "title": "Jha alternates",
+                    "name": "cv01",
+                    "id": "jha-alternates-label",
+                    "graphite_render_required": true,
+                    "default": "0",
+                    "label": "झ झ् झ़ झ़् झ्र झ़्र",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Nepali style",
+                        "value": "1"
+                      },
+                      {
+                        "tip": "Newari style",
+                        "value": "2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                  {
                     "title": "Jha alternates - ss01",
                     "name": "ss01",
                     "id": "jha-alternates-label",
+                    "opentype_render_required": true,
                     "default": "0",
                     "label": "झ झ् झ़ झ़् झ्र झ़्र",
                     "options": [
@@ -2039,6 +2070,7 @@
                     "title": "Jha alternates - ss02",
                     "name": "ss02",
                     "id": "jha-alternates-label",
+                    "opentype_render_required": true,
                     "default": "0",
                     "label": "झ झ् झ़ झ़् झ्र झ़्र",
                     "options": [
@@ -2058,7 +2090,7 @@
                 "set": [
                   {
                     "title": "Kra alternate",
-                    "name": "ss03",
+                    "name": "cv03",
                     "id": "kra-alternate-label",
                     "default": "0",
                     "label": "क्र क़्र",
@@ -2079,7 +2111,7 @@
                 "set": [
                   {
                     "title": "Tra alternate",
-                    "name": "ss04",
+                    "name": "cv04",
                     "id": "tra-alternate-label",
                     "default": "0",
                     "label": "त्र त़्र",
@@ -2100,7 +2132,7 @@
                 "set": [
                   {
                     "title": "Shra alternate",
-                    "name": "ss05",
+                    "name": "cv05",
                     "id": "shra-alternate-label",
                     "default": "0",
                     "label": "श्र श़्र",
@@ -2121,7 +2153,7 @@
                 "set": [
                   {
                     "title": "Ukar nukta position",
-                    "name": "ss06",
+                    "name": "cv06",
                     "id": "ukar-nukta-position-label",
                     "default": "0",
                     "label": "कु़ कू़ क्कु़ क्कू़",
@@ -2142,7 +2174,7 @@
                 "set": [
                   {
                     "title": "Ekar nukta position",
-                    "name": "ss07",
+                    "name": "cv07",
                     "id": "ekar-nukta-position-label",
                     "default": "0",
                     "label": "के़",
@@ -2163,7 +2195,7 @@
                 "set": [
                   {
                     "title": "Digit five alternate",
-                    "name": "ss08",
+                    "name": "cv08",
                     "id": "digit-five-alternate-label",
                     "default": "0",
                     "label": "५",
@@ -2184,7 +2216,7 @@
                 "set": [
                   {
                     "title": "Digit eight alternate",
-                    "name": "ss09",
+                    "name": "cv09",
                     "id": "digit-eight-alternate-label",
                     "default": "0",
                     "label": "८",
@@ -2204,9 +2236,36 @@
               {
                 "set": [
                   {
+                    "title": "Digit nine alternates",
+                    "name": "cv10",
+                    "id": "digit-nine-alternates-label",
+                    "graphite_render_required": true,
+                    "default": "0",
+                    "label": "९",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Nepali style",
+                        "value": "1"
+                      },
+                      {
+                        "tip": "Newari style",
+                        "value": "2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                  {
                     "title": "Digit nine alternates - ss10",
                     "name": "ss10",
                     "id": "digit-nine-alternates-label",
+                    "opentype_render_required": true,
                     "default": "0",
                     "label": "९",
                     "options": [
@@ -2228,6 +2287,7 @@
                     "title": "Digit nine alternates - ss11",
                     "name": "ss11",
                     "id": "digit-nine-alternates-label",
+                    "opentype_render_required": true,
                     "default": "0",
                     "label": "९",
                     "options": [
@@ -2247,7 +2307,7 @@
                 "set": [
                   {
                     "title": "Visarga with connecting bar",
-                    "name": "ss12",
+                    "name": "cv12",
                     "id": "visarga-with-connecting-bar-label",
                     "default": "0",
                     "label": "ः",
@@ -2268,7 +2328,7 @@
                 "set": [
                   {
                     "title": "Glottal stop - no connecting bar",
-                    "name": "ss13",
+                    "name": "cv13",
                     "id": "glottal-stop---no-connecting-bar-label",
                     "default": "0",
                     "label": "ॽ",
@@ -2289,7 +2349,7 @@
                 "set": [
                   {
                     "title": "Dya and Hya alternates",
-                    "name": "ss14",
+                    "name": "cv14",
                     "id": "dya-and-hya-alternates-label",
                     "default": "0",
                     "label": "द्य द्य् द्य़ द्य़् द्य्र द्य़्र ह्य ह्य् ह्य़ ह्य़् ह्य्र ह्य़्र",
@@ -2310,7 +2370,7 @@
                 "set": [
                   {
                     "title": "Archaic forms",
-                    "name": "ss15",
+                    "name": "cv15",
                     "id": "archaic-forms-label",
                     "default": "0",
                     "label": "अ आ ओ औ ण ण् क्ष क्ष्",
@@ -2331,7 +2391,7 @@
                 "set": [
                   {
                     "title": "Ra Ukar with Nukta ligatures",
-                    "name": "ss16",
+                    "name": "cv16",
                     "id": "ra-ukar-with-nukta-ligatures-label",
                     "default": "0",
                     "label": "रु़ ऱु़ रू़ ऱू़",
@@ -2352,7 +2412,7 @@
                 "set": [
                   {
                     "title": "Cha alternate",
-                    "name": "ss17",
+                    "name": "cv17",
                     "id": "cha-alternate-label",
                     "default": "0",
                     "label": "छ छ्",
@@ -2427,6 +2487,7 @@
         "category": [
           {
             "name": "Numeral alternates",
+            "opentype_render_required": true,
             "sets": [
               {
                 "set": [
@@ -2434,6 +2495,7 @@
                     "title": "Fractions",
                     "name": "frac",
                     "id": "fractions-label",
+                    "opentype_render_required": true,
                     "default": "1",
                     "label": "१⁄२ १⁄४ ३⁄४",
                     "options": [
@@ -2456,8 +2518,263 @@
     ]
   },
   {
+    "name": "Awami Nastaliq",
+    "id": "awami-nastaliq",
+    "graphite_render_required": true,
+    "categories": [
+      {
+        "category": [
+          {
+            "name": "Character variants",
+            "sets": [
+              {
+                "set": [
+                  {
+                    "title": "Hook on medial heh-goal",
+                    "name": "hehk",
+                    "id": "hook-on-medial-heh-goal-label",
+                    "default": "1",
+                    "label": "ب<span style='{diffStyle}'>ہ</span>ب ب<span style='{diffStyle}'>ۂ</span>ب",
+                    "options": [
+                      {
+                        "tip": "Yes",
+                        "value": "1"
+                      },
+                      {
+                        "tip": "No",
+                        "value": "0"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "Initial heh doachashmee",
+                    "name": "hedo",
+                    "id": "initial-heh-doachashmee-label",
+                    "default": "0",
+                    "label": "<span style='{diffStyle}'>ھ</span>ا",
+                    "options": [
+                      {
+                        "tip": "Heart shaped",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Round",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "Lam with V",
+                    "name": "lamv",
+                    "id": "lam-with-v-label",
+                    "default": "0",
+                    "label": "<span style='{diffStyle}'>ڵ</span> ڵبڵب<span style='{diffStyle}'>ڵ</span>",
+                    "options": [
+                      {
+                        "tip": "V over stem",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "V over bowl",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "Full Stop",
+                    "name": "cv85",
+                    "id": "full-stop-label",
+                    "default": "0",
+                    "label": "ججج<span style='{diffStyle}'>۔</span>",
+                    "options": [
+                      {
+                        "tip": "Dash",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Dot",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "Sukun/jazm",
+                    "name": "cv78",
+                    "id": "sukun-jazm-label",
+                    "default": "1",
+                    "label": "بْ ◌ْ",
+                    "options": [
+                      {
+                        "tip": "Open down",
+                        "value": "1"
+                      },
+                      {
+                        "tip": "Open left",
+                        "value": "2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "Hamza",
+                    "name": "hamz",
+                    "id": "hamza-label",
+                    "default": "0",
+                    "label": "ء أ ؤ بؤ إ ۂ بۂ ۓ بۓ ٵ ݬ بݬ ځ بځ بځب بٔ بٕ",
+                    "options": [
+                      {
+                        "tip": "Urdu style",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Arabic style",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "Word spacing",
+                    "name": "wdsp",
+                    "id": "word-spacing-label",
+                    "default": "2",
+                    "label": "کیوں جو انسانی حقوق کنوں",
+                    "options": [
+                      {
+                        "tip": "Extra tight",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Tight",
+                        "value": "1"
+                      },
+                      {
+                        "tip": "Medium",
+                        "value": "2"
+                      },
+                      {
+                        "tip": "Wide",
+                        "value": "3"
+                      },
+                      {
+                        "tip": "Extra wide",
+                        "value": "4"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "Collision avoidance",
+                    "name": "agca",
+                    "id": "collision-avoidance-label",
+                    "default": "3",
+                    "label": "<span style='{diffStyle}'>پی</span>ٹی <span style='{diffStyle}'>اؔبِی</span>ج<span style='{diffStyle}'>یل</span> تح<span style='{diffStyle}'>ر</span>ِ<span style='{diffStyle}'>ی</span>ج",
+                    "options": [
+                      {
+                        "tip": "On",
+                        "value": "3"
+                      },
+                      {
+                        "tip": "Kern-only",
+                        "value": "1"
+                      },
+                      {
+                        "tip": "Off",
+                        "value": "0"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "Short forms",
+                    "name": "shrt",
+                    "id": "short-forms-label",
+                    "default": "3",
+                    "label": "دی<span style='{diffStyle}'>ک</span>ھت<span style='{diffStyle}'>ی</span> <span style='{diffStyle}'>ک</span>نسلٹنٹ<span style='{diffStyle}'>س</span> ن<span style='{diffStyle}'>گ</span>ھنے ت<span style='{diffStyle}'>ک</span>می<span style='{diffStyle}'>ل</span>",
+                    "options": [
+                      {
+                        "tip": "All",
+                        "value": "3"
+                      },
+                      {
+                        "tip": "Finals",
+                        "value": "2"
+                      },
+                      {
+                        "tip": "Kafs and gafs",
+                        "value": "1"
+                      },
+                      {
+                        "tip": "None",
+                        "value": "0"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "Punctuation",
+                    "name": "punc",
+                    "id": "punctuation-label",
+                    "default": "0",
+                    "label": "! &quot; &apos; ( ) * + - / : [  ] { } « ­ ± · » ×   ‐ ‑ ‒ – — ― ‘ ’ ‚ “ ” „ • ‥ … ‧ ‰ ‹ › − ∙ ",
+                    "options": [
+                      {
+                        "tip": "Arabic (RTL) and Latin (LTR) styles",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Arabic-style",
+                        "value": "1"
+                      },
+                      {
+                        "tip": "Latin-style",
+                        "value": "2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Charis SIL",
     "id": "charis-sil",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -3395,6 +3712,7 @@
   {
     "name": "Doulos SIL",
     "id": "doulos-sil",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -4311,6 +4629,7 @@
   {
     "name": "Gentium Plus",
     "id": "gentium-plus",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -5341,6 +5660,7 @@
   {
     "name": "Harmattan",
     "id": "harmattan",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -5835,6 +6155,7 @@
   {
     "name": "Kanchenjunga",
     "id": "kanchenjunga",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -5934,6 +6255,7 @@
   {
     "name": "Lateef",
     "id": "lateef",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -6400,6 +6722,7 @@
   {
     "name": "Padauk",
     "id": "padauk",
+    "opentype_differs_from_graphite": true,
     "categories": [
       {
         "category": [
@@ -6605,6 +6928,7 @@
                     "title": "Lower dot shifts left",
                     "name": "lldt",
                     "id": "lower-dot-shifts-left-label",
+                    "graphite_render_required": true,
                     "default": "0",
                     "label": "ရ့ ရံ့ ကှ့",
                     "options": [
@@ -6626,6 +6950,7 @@
                     "title": "Long U with Yayit, long UU with Hato",
                     "name": "ulon",
                     "id": "long-u-with-yayit,-long-uu-with-hato-label",
+                    "graphite_render_required": true,
                     "default": "0",
                     "label": "ကြု ကှူ",
                     "options": [
@@ -6647,6 +6972,7 @@
                     "title": "U and UU always full height",
                     "name": "utal",
                     "id": "u-and-uu-always-full-height-label",
+                    "graphite_render_required": true,
                     "default": "0",
                     "label": "ု ူ",
                     "options": [
@@ -6668,6 +6994,7 @@
                     "title": "Insert dotted circles for errors (any combining mark)",
                     "name": "dotc",
                     "id": "insert-dotted-circles-for-errors-(any-combining-mark)-label",
+                    "graphite_render_required": true,
                     "default": "1",
                     "label": "ှူ",
                     "options": [
@@ -6689,6 +7016,7 @@
                     "title": "Disable great nnya",
                     "name": "nnya",
                     "id": "disable-great-nnya-label",
+                    "graphite_render_required": true,
                     "default": "0",
                     "label": "ည္ည",
                     "options": [
@@ -6710,6 +7038,7 @@
                     "title": "Variant tta",
                     "name": "vtta",
                     "id": "variant-tta-label",
+                    "graphite_render_required": true,
                     "default": "0",
                     "label": "ဋ ဋဌ ဏဋ",
                     "options": [
@@ -6731,6 +7060,7 @@
                     "title": "Move ldot right when possible",
                     "name": "dotr",
                     "id": "move-ldot-right-when-possible-label",
+                    "graphite_render_required": true,
                     "default": "0",
                     "label": "ကြ့",
                     "options": [
@@ -6755,6 +7085,7 @@
   {
     "name": "Ruwudu",
     "id": "ruwudu",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -6926,6 +7257,7 @@
   {
     "name": "Scheherazade New",
     "id": "scheherazade-new",
+    "always_opentype": true,
     "categories": [
       {
         "category": [
@@ -7399,6 +7731,7 @@
   {
     "name": "Tagmukay",
     "id": "tagmukay",
+    "always_opentype": true,
     "categories": [
       {
         "category": [

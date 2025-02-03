@@ -3,6 +3,12 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+Object.defineProperty(exports, "fontFeatureSettings", {
+  enumerable: true,
+  get: function get() {
+    return _fontFeatureSettings["default"];
+  }
+});
 Object.defineProperty(exports, "fontList", {
   enumerable: true,
   get: function get() {
@@ -59,4 +65,5 @@ var _fontList = _interopRequireDefault(require("./fonts/fontList.json"));
 var _graphiteEnabledFontList = _interopRequireDefault(require("./fonts/graphiteEnabledFontList.json"));
 var _graphiteEnabledFeatures = _interopRequireDefault(require("./fonts/graphiteEnabledFeatures.json"));
 var _openTypeEnabledFeatures = _interopRequireDefault(require("./fonts/openTypeEnabledFeatures.json"));
+var _fontFeatureSettings = _interopRequireDefault(require("./fonts/fontFeatureSettings.json"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
