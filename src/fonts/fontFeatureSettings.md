@@ -92,8 +92,8 @@ function Component(){
 
   const isGraphiteAssumed = useAssumeGraphite({});
 
-  /* Awami Nastaliq requires Graphite to render property. */
-  const featureArray = isGraphiteAssumed ? fontFeatureSettings : fontFeatureSettings.filter((name) => name.name !== 'Awami Nastaliq 3-300');
+  /* Awami Nastaliq requires Graphite to render properly. */
+  const featureArray = isGraphiteAssumed ? fontFeatureSettings : fontFeatureSettings.filter((name) => name.name !== 'Awami Nastaliq');
 
   const alwaysGraphite = featureArray.filter((name) => name.name === featureFont).map((item) => item.graphite_render_required === undefined ? 'N/A' : item.graphite_render_required);
   const alwaysGraphiteYesNo = (alwaysGraphite !== 'N/A' ?  alwaysGraphite.toString().replace("true", "Yes").replace("false", "No") : 'N/A');
