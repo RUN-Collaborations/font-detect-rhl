@@ -1,8 +1,8 @@
 [
   {
-    "name": "Abyssinica SIL 2-201",
-    "id": "Abyssinica-SIL-2-201",
-    "version": "2.201"
+    "name": "Abyssinica SIL 2-300",
+    "id": "Abyssinica-SIL-2-300",
+    "version": "2.300"
   },
   {
     "name": "Alkalami 3-000",
@@ -10,9 +10,9 @@
       "version": "3.000"
   },
   {
-    "name": "Andika 6-200",
-      "id": "Andika-6-200",
-      "version": "6.200"
+    "name": "Andika 7-000",
+      "id": "Andika-7-000",
+      "version": "7.000"
   },
   {
     "name": "Annapurna SIL 2-100",
@@ -23,21 +23,26 @@
     "name": "Awami Nastaliq 3-300",
     "id": "Awami-Nastaliq-3-300",
     "version": "3.300"
-  },  
-  {
-    "name": "Charis SIL 6-200",
-      "id": "Charis-SIL-6-200",
-      "version": "6.200"
   },
   {
-    "name": "Doulos SIL 6-200",
-      "id": "Doulos-SIL-6-200",
-      "version": "6.200"
+    "name": "Busra 9-000",
+    "id": "Busra-9-000",
+    "version": "9.000"
   },
   {
-    "name": "Gentium Plus 6-200",
-      "id": "Gentium-Plus-6-200",
-      "version": "6.200"
+    "name": "Charis 7-000",
+      "id": "charis-7-000",
+      "version": "7.000"
+  },
+  {
+    "name": "Doulos SIL 7-000",
+      "id": "Doulos-SIL-7-000",
+      "version": "7.000"
+  },
+  {
+    "name": "Gentium 7-000",
+      "id": "Gentium-7-000",
+      "version": "7.000"
   },
   {
     "name": "Harmattan 4-300",

@@ -71,7 +71,7 @@ function Component(){
 
   /* Annapurna SIL 2.100 uses *some different* font features settings for rendering with OpenType vs. rendering with Graphite. 
    *  In Firefox use settings from graphiteEnabledFeatures instead of openTypeEnabledFeatures for Annapurna SIL 2.100.
-   * Abyssinica SIL 2.201 and Padauk 5.100 render in both OpenType and Graphite using the *same* font features settings.
+   * Abyssinica SIL 2.300 and Padauk 5.100 render in both OpenType and Graphite using the *same* font features settings.
    *  In Firefox this is using graphiteEnabledFeatures, consistent with the 'RenderingUnknown' test result of 'RenderingGraphite'. */
   const enabledFeatures = ([...graphiteEnabledFeatures, ...openTypeEnabledFeatures.filter((name) => (name.name !=='Annapurna SIL' && name.name !=='Abyssinica SIL' && name.name !=='Padauk'))]);
 

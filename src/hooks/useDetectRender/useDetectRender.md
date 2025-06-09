@@ -2,9 +2,9 @@
 **useDetectRender** with **useDetectFonts** returns an array of detected fonts with one of the following three detected attributes: 'RenderingUnknown', 'RenderingOpenType', or 'RenderingGraphite'.
 
 For example:
-- Abyssinica SIL 2.201, Padauk 5.001, or Padauk 5.100 will return either 'RenderingGraphite' or 'RenderingOpenType, indicating how it has rendered as viewed.
+- Abyssinica SIL 2.300, Padauk 5.001, or Padauk 5.100 will return either 'RenderingGraphite' or 'RenderingOpenType, indicating how it has rendered as viewed.
 - Alkalami 3.000, Harmattan 4.300, Lateef 4.300, Ruwudu 3.000, or Scheherazade New 4.300 will return "RenderingOpenType".
-- Annapurana SIL 2.100 will return "RenderingUnknown".
+- Annapurana SIL 2.100 and Busra 9.000 will return "RenderingUnknown".
 - Awami Nastliq 3.300 will return either 'RenderingGraphite' or 'RenderingUnknown.
     - Awami Nastliq does not display properly without Graphite.
     - *If it is known for certain that Awami Nastliq 3.300 is available (e.g., a webfont), then this can be used as a test to identify whether or not rendering is being handled by Graphite in cases other than Firefox, or could be used to identify if Graphite is disabled in Firefox config.*
@@ -23,8 +23,9 @@ function Component(){
   // Webfonts are using a different css id from the actual font name to avoid conflict with locally installed fonts, which could be a different version.
   const webfonts = [
     { source: 'Web', name: 'Awami Nastaliq 3-300', id: 'awami-nastaliq-3-300' },
-    { source: 'Web', name: 'Abyssinica SIL 2-201', id: 'abyssinica-sil-2-201' },
+    { source: 'Web', name: 'Abyssinica SIL 2-300', id: 'Abyssinica-SIL-2-300' },
     { source: 'Web', name: 'Annapurna SIL 2-100', id: 'annapurna-sil-2-100' },
+    { source: 'Web', name: 'Busra 9-000', id: 'busra-9-000' },
     { source: 'Web', name: 'Padauk 5-100', id: 'padauk-5-100' },
     { source: 'Web', name: 'Alkalami 3-000', id: 'alkalami-3-000' },
     { source: 'Web', name: 'Harmattan 4-300', id: 'harmattan-4-300' },

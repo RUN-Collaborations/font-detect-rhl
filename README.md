@@ -46,7 +46,7 @@ Note, however that this provided font list ***excludes***:
 
 A separate array of [Graphite-enabled](https://software.sil.org/fonts/) fonts is also exported -- [graphiteEnabledFontList.json](https://github.com/RUN-Collaborations/font-detect-rhl/blob/main/src/fonts/graphiteEnabledFontList.json) ([graphiteEnabledFontList](https://font-detect-rhl.netlify.app/#/Example?id=graphiteenabledfontlist)):
 * These fonts are for use in applications with [Graphite](https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_about) implemented, a rendering engine for complex scripts that supports “smart fonts” capable of advanced behaviors, including combination and positioning of letters in complex ways.
-  * *Firefox<sup id="a5">[[5]](#f5)</sup>* is an application in which Graphite is implemented, and [Electronite](https://www.npmjs.com/package/electronite) is a framework that can be used to build and [package](https://www.npmjs.com/package/electronite-packager) others.
+  * *Firefox<sup id="a5">[[5]](#f5)</sup>*, Zen Browser<sup id="a5">[[5]](#f5)</sup>*, and LibrewWolf<sup id="a5">[[5]](#f5)</sup>* are some browsers in which Graphite is implemented, and [Electronite](https://www.npmjs.com/package/electronite) is a framework that can be used to build and [package](https://www.npmjs.com/package/electronite-packager) others.
   * Addition of line-height settings and font-size settings are recommended for Graphite-enabled fonts, for purposes of mitigating collisions or near collisions across rows, and for presentation optimization.
 
 <span id="2-font-detection-approach">&nbsp;</span>
@@ -87,19 +87,20 @@ The following font currently utilize *some different* font feature settings when
 <span id="3-3-opentype-font-features">&nbsp;</span>
 ### OpenType Font Features <sub><sup>[ [openTypeEnabledFeatures](https://font-detect-rhl.netlify.app/#/Example?id=opentypeenabledfeatures) ] ... [↩](#toc)</sup></sub>
 
-| Links to Font Settings source | Font Version | # of Feature Settings | Brief Font Description |
+| Links to Font Settings source | Font Version | Brief Font Description |
 | :---  | :---: | :---: | :---  |
-| [Alkalami](https://software.sil.org/alkalami/features/) | 3.000 | 7 | the Kano region of Nigeria and in Niger |
-| [Andika](https://software.sil.org/andika/features/) | 6.200 | 53 | comprehensive support for thousands of languages around the world written with Latin and Cyrillic letters and their many variants, including a wide range of additional characters and symbols useful for linguistic and literacy work. |
-| [Charis SIL](https://software.sil.org/charis/features/) | 6.200 | 41 | wide range of languages that use the Latin and Cyrillic scripts. |
-| [Doulos SIL](https://software.sil.org/doulos/features/) | 6.200 | 40 | wide range of languages that use the Latin and Cyrillic scripts |
-| [Gentium Plus](https://software.sil.org/gentium/features/) | 6.200 | 45 | Latin, Cyrillic, and Greek scripts |
-| [Harmattan](https://software.sil.org/harmattan/features/) | 4.300 | 19 | languages using the Arabic script in West Africa. |
-| [Kanchenjunga](https://software.sil.org/kanchenjunga/features/) | 2.001 | 4 | Kirat Rai script of South Asia. |
-| [Lateef](https://software.sil.org/lateef/features/) | 4.300 | 17 | Sindhi and other languages of southern Asia |
-| [Ruwudu](https://software.sil.org/ruwudu/features/) | 3.000 | 7 | style of writing is used by the Manga people in Niger, West Africa |
-| [Scheherazade New](https://software.sil.org/scheherazade/features/) | 4.300 | 18 | a “simplified” rendering of Arabic script, using basic - connecting glyphs but not including a wide variety of additional ligatures or contextual alternates (only the required lam-alef ligatures) |
-| [Tagmukay](https://software.sil.org/tagmukay/smart-font-features/)<sup>(*)</sup> | 2.000 | 2 | a Shifinagh script font with support for the Tawallammat Tamajaq language |
+| [Alkalami](https://software.sil.org/alkalami/features/) | 3.000 | the Kano region of Nigeria and in Niger |
+| [Andika](https://software.sil.org/andika/features/) | 6.200 | comprehensive support for thousands of languages around the world written with Latin and Cyrillic letters and their many variants, including a wide range of additional characters and symbols useful for linguistic and literacy work |
+| [Charis](https://software.sil.org/charis/features/) | 6.200 | wide range of languages that use the Latin and Cyrillic scripts |
+| [Busra](https://software.sil.org/busra/features/) | 9.000 | supports most of the Cambodian languages written in the Khmer script | 
+| [Doulos SIL](https://software.sil.org/doulos/features/) | 6.200 | wide range of languages that use the Latin and Cyrillic scripts |
+| [Gentium](https://software.sil.org/gentium/features/) | 6.200 | Latin, Cyrillic, and Greek scripts |
+| [Harmattan](https://software.sil.org/harmattan/features/) | 4.300 | languages using the Arabic script in West Africa |
+| [Kanchenjunga](https://software.sil.org/kanchenjunga/features/) | 2.001 | Kirat Rai script of South Asia |
+| [Lateef](https://software.sil.org/lateef/features/) | 4.300 | Sindhi and other languages of southern Asia |
+| [Ruwudu](https://software.sil.org/ruwudu/features/) | 3.000 | style of writing is used by the Manga people in Niger, West Africa |
+| [Scheherazade New](https://software.sil.org/scheherazade/features/) | 4.300 | a “simplified” rendering of Arabic script, using basic - connecting glyphs but not including a wide variety of additional ligatures or contextual alternates (only the required lam-alef ligatures) |
+| [Tagmukay](https://software.sil.org/tagmukay/smart-font-features/)<sup>(*)</sup> | 2.000 | a Shifinagh script font with support for the Tawallammat Tamajaq language |
 
  (*) The [Tagumukay font desription](https://software.sil.org/tagmukay/) indicates both "Graphite and OpenType tables..." The 'RenderingUnknown' test leads to 'RenderingUnknown' with version 2.000. The font features settings are presently only included in [openTypeEnabledFeatures](https://font-detect-rhl.netlify.app/#/Example?id=opentypeenabledfeatures). However, it is rendering in Graphite in Firefox, the OpenType font features settings will still work.
 
@@ -270,7 +271,7 @@ ___
 
 [<b id="f4">4</b>] ... iOS: New York, SF Pro Text, SF Pro Display, SF Pro, SF Compact, SF Mono, SF Arabic, SF Armenian, SF Georgian, and SF Hebrew. [[source 1](https://developer.apple.com/fonts/) | [source 2](https://9to5mac.com/2021/10/25/apple-refreshes-design-resources-for-ios-15-with-new-templates-fonts-and-website/)], and many pre-installed fonts that overlap with MacOS system and downloadable font families [[source](https://developer.apple.com/fonts/system-fonts/)]  ... [↩](#a4)
 
-[<b id="f5">5</b>] ... If [gfx.font_rendering.graphite.enabled](https://silnrsi.github.io/FDBP/en-US/Browsers%20as%20a%20font%20test%20platform.html) is ever set to false in about:config in [Firefox](https://www.mozilla.org/firefox/all/), then Graphite will not be enabled and graphite-enabled fonts will not render properly. To access this setting in [Firefox Configuration Editor](https://support.mozilla.org/en-US/kb/about-config-editor-firefox):
+[<b id="f5">5</b>] ... If [gfx.font_rendering.graphite.enabled](https://silnrsi.github.io/FDBP/en-US/Browsers%20as%20a%20font%20test%20platform.html) is ever set to false in about:config in [Firefox](https://www.mozilla.org/firefox/all/), then Graphite will not be enabled and graphite-enabled fonts will not render properly. To access this setting in [Firefox/Zen Browser/LibreWolf Configuration Editor](https://support.mozilla.org/en-US/kb/about-config-editor-firefox):
 * Type about:config in your address bar and press Enter.
 * Click on the "I'll be careful, I promise" button.
 * Type "graphite" in your search bar to look for gfx.font_rendering.graphite.enabled.

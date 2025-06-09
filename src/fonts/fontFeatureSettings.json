@@ -2,6 +2,7 @@
   {
     "name": "Abyssinica SIL",
     "id": "abyssinica-sil",
+    "version": "2.300",
     "opentype_differs_from_graphite": false,
     "categories": [
       {
@@ -655,6 +656,7 @@
   {
     "name": "Alkalami",
     "id": "alkalami",
+    "version": "3.000",
     "always_opentype": true,
     "categories": [
       {
@@ -827,6 +829,7 @@
   {
     "name": "Andika",
     "id": "andika",
+    "version": "7.000",
     "always_opentype": true,
     "categories": [
       {
@@ -1056,6 +1059,27 @@
               {
                 "set": [
                   {
+                    "title": "I",
+                    "name": "cv30",
+                    "id": "I-label",
+                    "default": "0",
+                    "label": "I Ì Í Î Ï Ĩ Ī Ĭ Į İ Ɨ Ǐ Ȉ Ȋ Ḭ Ḯ Ỉ Ị Ꞽ",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Barless",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                  {
                     "title": "i",
                     "name": "cv31",
                     "id": "i-label",
@@ -1079,7 +1103,7 @@
                   {
                     "title": "J",
                     "name": "cv35",
-                    "id": "j-label",
+                    "id": "J-label",
                     "default": "0",
                     "label": "J Ĵ Ɉ ᴊ ᴶ Ʝ",
                     "options": [
@@ -1089,6 +1113,27 @@
                       },
                       {
                         "tip": "Bar top",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                  {
+                    "title": "j",
+                    "name": "cv34",
+                    "id": "j-label",
+                    "default": "0",
+                    "label": "j ĵ ǰ ȷ ɉ ɟ ʝ ʲ ᶡ ᶨ ⱼ",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Top serif",
                         "value": "1"
                       }
                     ]
@@ -1961,11 +2006,11 @@
               {
                 "set": [
                   {
-                    "title": "6 and 9",
+                    "title": "6",
                     "name": "cv06",
-                    "id": "6-and-9-label",
+                    "id": "6-label",
                     "default": "0",
-                    "label": "6 9 ⁶ ⁹ ₆ ₉ ⅑ ⅙ ⅚",
+                    "label": "6 ⁶ ₆ ⅙ ⅚",
                     "options": [
                       {
                         "tip": "Standard",
@@ -1999,6 +2044,27 @@
                     ]
                   }
                 ]
+              },
+              {
+                "set": [
+                  {
+                    "title": "9",
+                    "name": "cv09",
+                    "id": "9-label",
+                    "default": "0",
+                    "label": "9 ⁹ ₉ ⅑",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Diagonal stem",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -2009,6 +2075,7 @@
   {
     "name": "Annapurna SIL",
     "id": "annapurna-sil",
+    "version": "2.100",
     "opentype_differs_from_graphite": true,
     "categories": [
       {
@@ -2520,6 +2587,7 @@
   {
     "name": "Awami Nastaliq",
     "id": "awami-nastaliq",
+    "version": "3.300",
     "graphite_render_required": true,
     "categories": [
       {
@@ -2772,8 +2840,97 @@
     ]
   },
   {
-    "name": "Charis SIL",
-    "id": "charis-sil",
+    "name": "Busra",
+    "id": "busra",
+    "version": "9.000",
+    "categories": [
+      {
+        "category": [
+          {
+            "name": "Stylistic alternates",
+            "sets": [
+              {
+                "set": [
+                  {
+                    "title": "Variant forms",
+                    "name": "ss01",
+                    "id": "variant-forms-label",
+                    "default": "0",
+                    "label": "ឱ ឳ ក៌ ក័",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Alternate",
+                        "value": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hooked coengs",
+                    "name": "ss02",
+                    "id": "hooked-coengs-label",
+                    "default": "0",
+                    "label": "ក្ឃ ក្ឈ ក្ឈៅ",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Alternate",
+                        "value": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Alternate ka",
+                    "name": "ss03",
+                    "id": "alternate-ka-label",
+                    "default": "0",
+                    "label": "ក កា កៅ",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Alternate",
+                        "value": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Alternate coeng-Nho",
+                    "name": "ss04",
+                    "id": "alternate-coeng-nho-label",
+                    "default": "0",
+                    "label": "ក្ញ",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Alternate",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Charis",
+    "id": "charis",
+    "version": "7.000",
     "always_opentype": true,
     "categories": [
       {
@@ -3643,6 +3800,27 @@
               {
                 "set": [
                   {
+                    "title": "Proportional oldstyle figures",
+                    "name": "onum",
+                    "id": "proportional-oldstyle-figures-label",
+                    "default": "0",
+                    "label": "0 1 2 3 4 5 6 7 8 9",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Oldstyle",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                  {
                     "title": "Subscript numerals",
                     "name": "subs",
                     "id": "subscript-numerals-label",
@@ -3712,6 +3890,7 @@
   {
     "name": "Doulos SIL",
     "id": "doulos-sil",
+    "version": "7.000",
     "always_opentype": true,
     "categories": [
       {
@@ -4627,8 +4806,9 @@
     ]
   },
   {
-    "name": "Gentium Plus",
-    "id": "gentium-plus",
+    "name": "Gentium",
+    "id": "gentium",
+    "version": "7.000",
     "always_opentype": true,
     "categories": [
       {
@@ -5588,6 +5768,27 @@
           {
             "name": "Numeral alternates",
             "sets": [
+              {
+                "set": [
+                  {
+                    "title": "Proportional oldstyle figures",
+                    "name": "onum",
+                    "id": "proportional-oldstyle-figures-label",
+                    "default": "0",
+                    "label": "0 1 2 3 4 5 6 7 8 9",
+                    "options": [
+                      {
+                        "tip": "Standard",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Oldstyle",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "set": [
                   {
