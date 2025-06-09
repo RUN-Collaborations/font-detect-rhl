@@ -2,6 +2,7 @@
   {
     "name": "Abyssinica SIL",
     "id": "abyssinica-sil",
+    "version": "2.300",
     "categories": [
       {
         "category": [
@@ -654,6 +655,7 @@
   {
     "name": "Annapurna SIL",
     "id": "annapurna-sil",
+    "version": "2.100",
     "categories": [
       {
         "category": [
@@ -1042,6 +1044,7 @@
   {
     "name": "Awami Nastaliq",
     "id": "awami-nastaliq",
+    "version": "3.300",
     "categories": [
       {
         "category": [
