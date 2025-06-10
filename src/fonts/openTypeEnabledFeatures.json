@@ -5542,6 +5542,7 @@
   {
     "name": "Harmattan",
     "id": "harmattan",
+    "version": "4.300",
     "categories": [
       {
         "category": [
@@ -6036,6 +6037,7 @@
   {
     "name": "Kanchenjunga",
     "id": "kanchenjunga",
+    "version": "2.001",
     "categories": [
       {
         "category": [
@@ -6135,6 +6137,7 @@
   {
     "name": "Lateef",
     "id": "lateef",
+    "version": "4.300",
     "categories": [
       {
         "category": [
@@ -6601,6 +6604,7 @@
   {
     "name": "Padauk",
     "id": "padauk",
+    "version": "5.100",
     "categories": [
       {
         "category": [
@@ -6956,6 +6960,7 @@
   {
     "name": "Ruwudu",
     "id": "ruwudu",
+    "version": "3.000",
     "categories": [
       {
         "category": [
@@ -7127,6 +7132,7 @@
   {
     "name": "Scheherazade New",
     "id": "scheherazade-new",
+    "version": "4.300",
     "categories": [
       {
         "category": [
@@ -7600,6 +7606,7 @@
   {
     "name": "Tagmukay",
     "id": "tagmukay",
+    "version": "2.000",
     "categories": [
       {
         "category": [
