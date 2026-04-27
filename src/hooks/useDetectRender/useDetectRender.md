@@ -22,7 +22,7 @@ function Component(){
 
   // Webfonts are using a different css id from the actual font name to avoid conflict with locally installed fonts, which could be a different version.
   const webfonts = [
-    { source: 'Web', name: 'Awami Nastaliq 3-300', id: 'awami-nastaliq-3-300' },
+    { source: 'Web', name: 'Awami Nastaliq 3-400', id: 'awami-nastaliq-3-400' },
     { source: 'Web', name: 'Abyssinica SIL 2-300', id: 'Abyssinica-SIL-2-300' },
     { source: 'Web', name: 'Annapurna SIL 2-100', id: 'annapurna-sil-2-100' },
     { source: 'Web', name: 'Busra 9-000', id: 'busra-9-000' },

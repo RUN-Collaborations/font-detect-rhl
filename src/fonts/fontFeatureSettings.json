@@ -2587,7 +2587,7 @@
   {
     "name": "Awami Nastaliq",
     "id": "awami-nastaliq",
-    "version": "3.300",
+    "version": "3.400",
     "graphite_render_required": true,
     "categories": [
       {
@@ -2715,6 +2715,27 @@
                       },
                       {
                         "tip": "Arabic style",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "High Hamza",
+                    "name": "hihm",
+                    "id": "hihm-label",
+                    "default": "0",
+                    "label": "ٴ",
+                    "options": [
+                      {
+                        "tip": "Urdu style",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Malay style",
                         "value": "1"
                       }
                     ]
