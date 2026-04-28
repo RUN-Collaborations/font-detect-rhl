@@ -1,10 +1,5 @@
 [
   {
-    "name": "Abyssinica SIL 2-300",
-    "id": "Abyssinica-SIL-2-300",
-    "version": "2.201"
-  },
-  {
     "name": "Annapurna SIL 2-100",
       "id": "Annapurna-SIL-2-100",
       "version": "2.100"
@@ -13,10 +8,5 @@
     "name": "Awami Nastaliq 3-400",
     "id": "Awami-Nastaliq-3-400",
     "version": "3.400"
-  },
-  {
-    "name": "Padauk 5-100",
-      "id": "Padauk-5-100",
-      "version": "5.100"
   }
 ]
