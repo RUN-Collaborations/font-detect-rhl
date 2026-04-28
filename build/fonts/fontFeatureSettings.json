@@ -2587,7 +2587,7 @@
   {
     "name": "Awami Nastaliq",
     "id": "awami-nastaliq",
-    "version": "3.300",
+    "version": "3.400",
     "graphite_render_required": true,
     "categories": [
       {
@@ -2715,6 +2715,27 @@
                       },
                       {
                         "tip": "Arabic style",
+                        "value": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "set": [
+                    {
+                    "title": "High Hamza",
+                    "name": "hihm",
+                    "id": "hihm-label",
+                    "default": "0",
+                    "label": "ٴ",
+                    "options": [
+                      {
+                        "tip": "Urdu style",
+                        "value": "0"
+                      },
+                      {
+                        "tip": "Malay style",
                         "value": "1"
                       }
                     ]
@@ -5861,6 +5882,7 @@
   {
     "name": "Harmattan",
     "id": "harmattan",
+    "version": "4.300",
     "always_opentype": true,
     "categories": [
       {
@@ -6356,6 +6378,7 @@
   {
     "name": "Kanchenjunga",
     "id": "kanchenjunga",
+    "version": "2.001",
     "always_opentype": true,
     "categories": [
       {
@@ -6456,6 +6479,7 @@
   {
     "name": "Lateef",
     "id": "lateef",
+    "version": "4.300",
     "always_opentype": true,
     "categories": [
       {
@@ -6923,7 +6947,8 @@
   {
     "name": "Padauk",
     "id": "padauk",
-    "opentype_differs_from_graphite": true,
+    "version": "6.000",
+    "opentype_differs_from_graphite": false,
     "categories": [
       {
         "category": [
@@ -7017,9 +7042,9 @@
               {
                 "set": [
                   {
-                    "title": "Aiton Phake special",
+                    "title": "Aiton Phake special characters over Khamti ",
                     "name": "cv05",
-                    "id": "aiton-phake-special-label",
+                    "id": "aiton-phake-special-characters-over-khamti-label",
                     "default": "0",
                     "label": "က︀ ၵ︀ ꩡ︀ ၺ တ︀ ꩫ︀ ၸ︀ ယ︀ ꩺ လ︀ ꩭ ဢ︀ ြ",
                     "options": [
@@ -7126,96 +7151,8 @@
               {
                 "set": [
                   {
-                    "title": "Lower dot shifts left",
-                    "name": "lldt",
-                    "id": "lower-dot-shifts-left-label",
-                    "graphite_render_required": true,
-                    "default": "0",
-                    "label": "ရ့ ရံ့ ကှ့",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "Long U with Yayit, long UU with Hato",
-                    "name": "ulon",
-                    "id": "long-u-with-yayit,-long-uu-with-hato-label",
-                    "graphite_render_required": true,
-                    "default": "0",
-                    "label": "ကြု ကှူ",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "U and UU always full height",
-                    "name": "utal",
-                    "id": "u-and-uu-always-full-height-label",
-                    "graphite_render_required": true,
-                    "default": "0",
-                    "label": "ု ူ",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "Insert dotted circles for errors (any combining mark)",
-                    "name": "dotc",
-                    "id": "insert-dotted-circles-for-errors-(any-combining-mark)-label",
-                    "graphite_render_required": true,
-                    "default": "1",
-                    "label": "ှူ",
-                    "options": [
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      },
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
                     "title": "Disable great nnya",
-                    "name": "nnya",
+                    "name": "cv11",
                     "id": "disable-great-nnya-label",
                     "graphite_render_required": true,
                     "default": "0",
@@ -7232,50 +7169,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "Variant tta",
-                    "name": "vtta",
-                    "id": "variant-tta-label",
-                    "graphite_render_required": true,
-                    "default": "0",
-                    "label": "ဋ ဋဌ ဏဋ",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "Move ldot right when possible",
-                    "name": "dotr",
-                    "id": "move-ldot-right-when-possible-label",
-                    "graphite_render_required": true,
-                    "default": "0",
-                    "label": "ကြ့",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
               }
             ]          
           }
@@ -7286,6 +7179,7 @@
   {
     "name": "Ruwudu",
     "id": "ruwudu",
+    "version": "3.000",
     "always_opentype": true,
     "categories": [
       {
@@ -7458,6 +7352,7 @@
   {
     "name": "Scheherazade New",
     "id": "scheherazade-new",
+    "version": "4.300",
     "always_opentype": true,
     "categories": [
       {
@@ -7932,6 +7827,7 @@
   {
     "name": "Tagmukay",
     "id": "tagmukay",
+    "version": "2.000",
     "always_opentype": true,
     "categories": [
       {
