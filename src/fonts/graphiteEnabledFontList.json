@@ -1,11 +1,9 @@
 [
-  { "name": "Abyssinica SIL", "id": "abyssinica-sil" },
   { "name": "Adinatha Tamil Brahmi", "id": "adinatha-tamil-brahmi" },
   { "name": "Annapurna SIL", "id": "annapurna-sil" },
   { "name": "Awami Nastaliq", "id": "awami-nastaliq" },
   { "name": "Conakry", "id": "conakry" },
   { "name": "Doulos SIL Cipher", "id": "doulos-sil-cipher" },
   { "name": "Krishna Tamil", "id": "krishna-tamil"},
-  { "name": "Padauk", "id": "padauk" },
   { "name": "Payap Lanna", "id": "payap-lanna" }
 ]

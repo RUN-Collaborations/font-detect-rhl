@@ -6604,7 +6604,7 @@
   {
     "name": "Padauk",
     "id": "padauk",
-    "version": "5.100",
+    "version": "6.000",
     "categories": [
       {
         "category": [
@@ -6807,92 +6807,8 @@
               {
                 "set": [
                   {
-                    "title": "Lower dot shifts left",
-                    "name": "lldt",
-                    "id": "lower-dot-shifts-left-label",
-                    "default": "0",
-                    "label": "ရ့ ရံ့ ကှ့",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "Long U with Yayit, long UU with Hato",
-                    "name": "ulon",
-                    "id": "long-u-with-yayit,-long-uu-with-hato-label",
-                    "default": "0",
-                    "label": "ကြု ကှူ",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "U and UU always full height",
-                    "name": "utal",
-                    "id": "u-and-uu-always-full-height-label",
-                    "default": "0",
-                    "label": "ု ူ",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "Insert dotted circles for errors (any combining mark)",
-                    "name": "dotc",
-                    "id": "insert-dotted-circles-for-errors-(any-combining-mark)-label",
-                    "default": "1",
-                    "label": "ှူ",
-                    "options": [
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      },
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
                     "title": "Disable great nnya",
-                    "name": "nnya",
+                    "name": "cv11",
                     "id": "disable-great-nnya-label",
                     "default": "0",
                     "label": "ည္ည",
@@ -6903,48 +6819,6 @@
                       },
                       {
                         "tip": "No",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "Variant tta",
-                    "name": "vtta",
-                    "id": "variant-tta-label",
-                    "default": "0",
-                    "label": "ဋ ဋဌ ဏဋ",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
-                        "value": "1"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "set": [
-                  {
-                    "title": "Move ldot right when possible",
-                    "name": "dotr",
-                    "id": "move-ldot-right-when-possible-label",
-                    "default": "0",
-                    "label": "ကြ့",
-                    "options": [
-                      {
-                        "tip": "No",
-                        "value": "0"
-                      },
-                      {
-                        "tip": "Yes",
                         "value": "1"
                       }
                     ]
