@@ -15,15 +15,6 @@ The example below uses **fontFeatureSettings** to return a list of features avai
         - Digit nine alternates - ss11 (ss11)
     - *settings that require Open Type (not available in Graphite)*:
         - Fractions (frac)
-- **Padauk**:
-    - *settings that require Graphite (not available in Open Type)*:
-        - Lower dot shifts left (lldt)
-        - Long U with Yayit, long UU with Hato (ulon)
-        - U and UU always full height (utal)
-        - Insert dotted circles for errors (any combining mark) (dotc)
-        - Disable great nnya (nnya)
-        - Variant tta (vtta)
-        - Move ldot right when possible (dotr)
 
 Fonts available for selection below are served from embedded web fonts, to ensure full coverage of **fontFeatureSettings**.
 
